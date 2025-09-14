@@ -262,6 +262,8 @@ address {
   width: 264px;
   height: 428px;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .main-team-position {
@@ -339,6 +341,12 @@ address {
 .main-portfolio-item:hover .main-app-text {
   transform: translateY(0);
 }
+
+.main-portfolio-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 .main-portfolio-cover {
   position: relative;
   overflow: hidden;
